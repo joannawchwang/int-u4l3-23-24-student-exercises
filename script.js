@@ -15,7 +15,7 @@ button.addEventListener("click", function() {
         document.querySelector(".denied").style = "display:none";
     } else {
         document.querySelector(".denied").style = "display:block";
-        document.querySelector(".yes").style = "display:none"
+        document.querySelector(".yes").style = "display:none";
     }
 
 });
