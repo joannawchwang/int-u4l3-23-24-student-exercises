@@ -10,11 +10,12 @@ button.addEventListener("click", function() {
 
     console.log(password);
 
-    if (password === "Open Says Me") {
+    if (password === "Hello ") {
         document.querySelector(".yes").style = "display:block";
         document.querySelector(".denied").style = "display:none";
     } else {
         document.querySelector(".denied").style = "display:block";
+        document.querySelector(".yes").style = "display:none"
     }
 
 });
